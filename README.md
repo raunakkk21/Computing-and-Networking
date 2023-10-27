@@ -53,7 +53,7 @@ SoCs usually contain:
 14.**SEP**-A standard-essential patent (SEP) is a patent that protects an invention that must be used to comply with a technical standard.    
 
 15.**GraphineOS**- GrapheneOS is a custom, open-source operating system (OS) that focuses on privacy and security. It's based on Android and is compatible with Android apps.GrapheneOS is compatible with selected Google Pixel smartphones, including:   
--Pixel 8 Pro,Pixel 8,Pixel Fold,etc  
+- Pixel 8 Pro,Pixel 8,Pixel Fold,etc  
 16.**BOSS**- Bharat Operating System Solutions (BOSS) is an open-source operating system (OS) developed by the Centre for Development of Advanced Computing (C-DAC) in India. BOSS is an Indian Linux distribution based on Debian.  
 <img height="100" width="200" align="right" src="https://github.com/raunakkk21/Computing-and-Networking/assets/143111163/07aef32d-9e40-4bec-8f64-ff68ccad28bc">
 
