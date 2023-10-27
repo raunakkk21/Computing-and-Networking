@@ -93,6 +93,11 @@ A data center is a physical facility that stores a company's critical applicatio
 4.**CISCO**- Cisco is a US technology company that develops, manufactures, and sells networking hardware, telecoms equipment, and other IT services and products.Cisco offers courses and certifications in: 
 - Installing, monitoring, and troubleshooting network infrastructure products, Programming
 - Computer Hardware Basics
+  
+5.**Mysterium Network**- Mysterium Network is a free, open-source network that provides anonymous access to the internet.Users and clients can pay to connect to these nodes, which provide: 
+- A VPN or proxy service
+- Access to the open internet
+- A secure line of communication
 
   
 
