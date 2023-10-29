@@ -99,6 +99,13 @@ A data center is a physical facility that stores a company's critical applicatio
 - Access to the open internet
 - A secure line of communication
 
+## KEYWORDS   
+1.**VCS**-A version control system (VCS) is software that tracks changes to a file or set of files over time. VCSs are used in software development, where a team of people may concurrently make changes to the same files.  
+VCSs help developers: 
+- Efficiently communicate and manage changes to source code
+- Maintain a record of every change, including authorship, timestamp, and other details
+- Recall specific versions later
+
   
 
 
