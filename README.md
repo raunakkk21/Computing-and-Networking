@@ -60,6 +60,33 @@ SoCs usually contain:
 16.**BOSS**- Bharat Operating System Solutions (BOSS) is an open-source operating system (OS) developed by the Centre for Development of Advanced Computing (C-DAC) in India. BOSS is an Indian Linux distribution based on Debian.  
 <img height="100" width="200" align="right" src="https://github.com/raunakkk21/Computing-and-Networking/assets/143111163/07aef32d-9e40-4bec-8f64-ff68ccad28bc">
 
+17.**Host**-A network host is a computer or other device that is connected to a computer network. Hosts can include clients and servers that send or receive data, services, and applications.  
+
+18.**Virtualization**-Virtualization is the process of creating a virtual version of something, such as an operating system (OS), a server, a storage device, or network resources.   
+
+19.**Hypervisors**-A hypervisor is a type of computer software, firmware, or hardware that creates and runs virtual machines. Hypervisors are also known as virtual machine monitors (VMMs) or virtualizers.   
+
+*Type of Hypervisors*  
+
+<img width="747" alt="Screenshot 2023-11-03 172732" src="https://github.com/raunakkk21/Computing-and-Networking/assets/143111163/6f33a7ed-e4d0-4462-b63c-4a07de3af000">  
+
+20.**Containers**-A container is a software solution that wraps a software process or microservice to make it executable in all computing environments.  
+
+21.**SR-IOV**-The single root I/O virtualization (SR-IOV) interface is an extension to the PCI Express(Peripeheral component interconnect express) specification. SR-IOV allows a device, such as a network adapter, to separate access to its resources among various PCIe hardware functions.CIe is available in different physical configurations, including x1, x4, x8, x16, and x32.  
+
+21.**Vertical and Horizontal scaling**    
+<img src="https://github.com/raunakkk21/Computing-and-Networking/assets/143111163/c89c4d76-28e1-4a44-b415-aad8e71068be" height="350" width="600">  
+
+22.**Site to site VPN**-A site-to-site virtual private network (VPN) is a way to connect local area networks (LANs) in multiple locations across the public internet. It allows employees in different sites to securely share resources and information.   
+
+23.**Clien to sire VPN**-A client-to-site VPN (Virtual Private Network) is a type of VPN that connects a single device, such as a laptop or smartphone, to a remote network, such as a corporate or cloud network.  
+
+
+
+
+
+
+
   ------------------------------------------------------------------------------------------------------------
 
 # STORAGE
@@ -78,25 +105,25 @@ RAID is used for:
 3.**Sharding**-Database sharding is the process of breaking up large database tables into smaller chunks called shards. A shard is a horizontal data partition that contains a subset of the total data set.     
 <img src="https://github.com/raunakkk21/Computing-and-Networking/assets/143111163/9ae45b73-327b-4566-89fd-4716037fbb2c" width="600" height="300">  
 *Types of sharding*  
-<img src="https://github.com/raunakkk21/Computing-and-Networking/assets/143111163/9a7bfe17-2caa-42c3-ac51-add91f83a8f3" width="600" height="400">
+<img src="https://github.com/raunakkk21/Computing-and-Networking/assets/143111163/9a7bfe17-2caa-42c3-ac51-add91f83a8f3" width="600" height="400">  
 
-
-
-## DATA CENTERS  
-A data center is a physical facility that stores a company's critical applications and data. It contains computing and networking equipment that is used to:   
-
+  
+4.**DATA CENTERS**- A data center is a physical facility that stores a company's critical applications and data. It contains computing and networking equipment that is used to: 
 - Collect, process, and store data
 - Distribute and enable access to resources
   
-1.**HCL**-HCL stands for Hindustan Computers Limited. HCL is an Indian multinational IT services and consulting company.HCL offers data center solutions, including: Modernization, Platform tech refresh, Datacenter consolidation, Datacenter migration, Hybrid cloud.  
+5.**HCL**-HCL stands for Hindustan Computers Limited. HCL is an Indian multinational IT services and consulting company.HCL offers data center solutions, including: Modernization, Platform tech refresh, Datacenter consolidation, Datacenter migration, Hybrid cloud.  
 
-2.**Hyperscale Data Center**-A hyperscale data center is a large facility that houses critical compute and network infrastructure. These facilities are designed to support robust and scalable workloads.They are often associated with large companies that require vast data processing and storage requirements, such as: Google, Amazon, Microsoft, Facebook, Apple.Hyperscale data centers typically house 5,000 or more servers.  
+6.**Hyperscale Data Center**-A hyperscale data center is a large facility that houses critical compute and network infrastructure. These facilities are designed to support robust and scalable workloads.They are often associated with large companies that require vast data processing and storage requirements, such as: Google, Amazon, Microsoft, Facebook, Apple.Hyperscale data centers typically house 5,000 or more servers.  
 
-3.**Public Data centers**-A public data center is a facility that provides shared access to applications and data using a complex network, compute, and storage infrastructure.Some of the most reliable colocation data center companies are:   
+7.**Public Data centers**-A public data center is a facility that provides shared access to applications and data using a complex network, compute, and storage infrastructure.Some of the most reliable colocation data center companies are:   
 
 - QTS Realty Trust Inc (NYSE: QTS)
 - Digital Realty (NYSE: DLR)
 - Equinix (NASDAQ)
+
+8.**NFS**-NFS stands for Network File System. It is a file system mechanism that allows users to store and retrieve data from multiple disks and directories across a shared network. NFS is a distributed file system protocol that allows users to access files and directories located on remote computers and treat those files and directories as if they were local. 
+
 
 # NETWORK
 1.**SR-IOV**- Single Root I/O Virtualization (SR-IOV) is a technology that allows a physical PCIe device to present itself multiple times through the PCIe bus. SR-IOV is an extension to the PCI Express (PCIe) specification. It allows a device, such as a network adapter, to separate access to its resources among various PCIe hardware functions.   
@@ -120,7 +147,34 @@ A data center is a physical facility that stores a company's critical applicatio
 
 6.**Kubernetes vs Mesos vs Dockerswarm**    
 - Container orhestration tools
-<img width="600" alt="Screenshot 2023-11-03 124703" src="https://github.com/raunakkk21/Computing-and-Networking/assets/143111163/10f11bc8-5b75-445b-807b-3b977f141c2c">
+<img width="600" height="400" alt="Screenshot 2023-11-03 124703" src="https://github.com/raunakkk21/Computing-and-Networking/assets/143111163/10f11bc8-5b75-445b-807b-3b977f141c2c">
+
+7.**Control plane vs Data Plane**    
+<img src="https://github.com/raunakkk21/Computing-and-Networking/assets/143111163/9fcc5798-9b18-4a6d-884c-3dc6f5a09dce" width="700" height="400" >  
+
+8.**COTS**-Commercial-off-the-shelf: A product that is a standard, existing hardware product that is available from commercial sources.COTS products are designed to be easily installed and interoperate with existing system components.  
+
+9.**CIDR Notations**-CIDR notation, or Classless Inter-Domain Routing notation, is a way to represent IP addresses in computer networks. CIDR notation uses a slash ('/') character to separate a prefix from a suffix. The prefix is the IP address, and the suffix is a decimal number that indicates how many bits are in the entire address.  
+
+10.**Subnetting**-Subnetting is a method of dividing a single physical network into logical sub-networks, also known as subnets.  
+*Benifits*:
+- Reduce network traffic
+- Conceal network complexity
+- Increase routing efficiency
+- Enhance the security of the network
+
+11.**L4 and L7 load balancers**  
+- L4 load balancers deliver traffic with limited network information using a load balancing algorithm. They calculate the best server based on fewest connections and fastest server response times.
+- L7 load balancers disconnect network traffic and process the message inside. They make a decision based on the content of the message. Once decided, they establish a new TCP connection to the designated upstream server and send the request to the server.
+
+12.**SSO**-Single sign-on (SSO) is a system that allows users to access multiple applications and services with just one set of login credentials. SSO works by authenticating a user's identity once and then granting access to all of the applications and services that the user is authorized to access.   
+
+13.**Okta**-The Okta app integrations in your org use Single Sign-On (SSO) to provide a seamless authentication experience for end users. After end users sign in to Okta, they can launch any of their assigned app integrations to access external applications and services without reentering their credentials.  
+
+14.**OIDC**-OpenID Connect (OIDC) is an open authentication protocol that works on top of the OAuth 2.0 framework. It allows individuals to use single sign-on (SSO) to access relying party sites using OpenID Providers (OPs), such as an email provider or social network, to authenticate their identities.  
+
+15.**LDAP(Lightweight directory access protocol)**-LDAP authentication is the process of verifying a user's identity by checking their credentials against an LDAP directory server. 
+
 
 
 ## KEYWORDS   
