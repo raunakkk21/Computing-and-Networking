@@ -77,9 +77,8 @@ SoCs usually contain:
 21.**Vertical and Horizontal scaling**    
 <img src="https://github.com/raunakkk21/Computing-and-Networking/assets/143111163/c89c4d76-28e1-4a44-b415-aad8e71068be" height="350" width="600">  
 
-22.**Site to site VPN**-A site-to-site virtual private network (VPN) is a way to connect local area networks (LANs) in multiple locations across the public internet. It allows employees in different sites to securely share resources and information.   
 
-23.**Clien to sire VPN**-A client-to-site VPN (Virtual Private Network) is a type of VPN that connects a single device, such as a laptop or smartphone, to a remote network, such as a corporate or cloud network.  
+
 
 
 
@@ -173,7 +172,21 @@ RAID is used for:
 
 14.**OIDC**-OpenID Connect (OIDC) is an open authentication protocol that works on top of the OAuth 2.0 framework. It allows individuals to use single sign-on (SSO) to access relying party sites using OpenID Providers (OPs), such as an email provider or social network, to authenticate their identities.  
 
-15.**LDAP(Lightweight directory access protocol)**-LDAP authentication is the process of verifying a user's identity by checking their credentials against an LDAP directory server. 
+15.**LDAP(Lightweight directory access protocol)**-LDAP authentication is the process of verifying a user's identity by checking their credentials against an LDAP directory server.  
+
+16.**CDN**-Content delivery networks (CDNs) work by establishing a point of presence (POP) or a group of CDN edge servers at multiple geographical locations. This geographically distributed network works on the principles of caching, dynamic acceleration, and edge logic computations.    
+
+17.**API Gateway**-An application programming interface (API) gateway is software that takes an application user's request, routes it to one or more backend services, gathers the appropriate data and delivers it to the user in a single, combined package.  
+
+19.**Isolation**-An isolated local network consists of servers that are connected in an environment which has no connection to any other network. In this model, there is zero network connectivity to a larger internal network or the Internet.  
+
+20.**Site to site VPN**-A site-to-site virtual private network (VPN) is a way to connect local area networks (LANs) in multiple locations across the public internet. It allows employees in different sites to securely share resources and information.   
+
+21.**Client to site VPN**-A client-to-site VPN (Virtual Private Network) is a type of VPN that connects a single device, such as a laptop or smartphone, to a remote network, such as a corporate or cloud network.      
+![1_2LhRE8Y2KD8hZhcz9BNYFA](https://github.com/raunakkk21/Computing-and-Networking/assets/143111163/b44adbf9-79ee-42b7-9e4a-a042b5066b9a)
+
+
+
 
 
 
