@@ -1,6 +1,7 @@
 # CDN  
 - Content delivery networks (CDNs) work by establishing a point of presence (POP) or a group of CDN edge servers at multiple geographical locations. This geographically distributed network works on the principles of caching, dynamic acceleration, and edge logic computations.
-##  COMPUTATION 💻      
+##  COMPUTATION 💻  
+   
 ### Processor Architectures
 1.**CISC**(Closed source)-CISC stands for Complex Instruction Set Computer. It comprises a complex instruction set. It incorporates a variable-length instruction format. Instructions that require register operands can take only two bytes.
 
@@ -32,12 +33,24 @@
 ### Operating Systems
 - An operating system is a set of programs that enables a user to operate and interact with a computer.
 #### Types of OS
-- Batch OS
-- Time-sharing or multitasking OS
-- Distributed OS
-- Network OS
-- Real-time OS
-- Mobile OS
+- Batch OS(Payroll System, Bank Statements )
+- Time-sharing or multitasking OS(UNIX,Linux,Windows)
+- Distributed OS(Cloud Computing)
+- NetworkOS(NOS)-It is software that connects multiple devices and computers on the network and allows them to share resources on the network.
+- Real-time OS(Airline reservation systems, Heart pacemakers,anything that needs immediate reponse)
+- Mobile OS(Android,GrapheneOS,Window phone,etc)
+
+### Host
+Bare metal- Server with no OS
+
+### Vitual Machine(VM)
+- A VM is a virtualized instance of a computer that can perform almost all of the same functions as a computer, including running applications and operating systems.
+- Types of VM's
+  - process VM's
+  - system VM's
+  
+
+
 
 
 ### Types of Integrated circuits
@@ -54,22 +67,6 @@ SoCs usually contain:
 
 3.**FGPA**- FGPA stands for field-programmable gate array. It's a type of integrated circuit that can be programmed or reprogrammed after manufacturing.FPGAs are versatile and can be configured to perform a wide range of digital logic functions.
   
-
-
-
-
-
-  
-
-  
-
-15.**GraphineOS**- GrapheneOS is a custom, open-source operating system (OS) that focuses on privacy and security. It's based on Android and is compatible with Android apps.GrapheneOS is compatible with selected Google Pixel smartphones, including:   
-- Pixel 8 Pro,Pixel 8,Pixel Fold,etc
-- 
-16.**BOSS**- Bharat Operating System Solutions (BOSS) is an open-source operating system (OS) developed by the Centre for Development of Advanced Computing (C-DAC) in India. BOSS is an Indian Linux distribution based on Debian.  
-<img height="100" width="200" align="right" src="https://github.com/raunakkk21/Computing-and-Networking/assets/143111163/07aef32d-9e40-4bec-8f64-ff68ccad28bc">
-
-17.**Host**-A network host is a computer or other device that is connected to a computer network. Hosts can include clients and servers that send or receive data, services, and applications.  
 
 18.**Virtualization**-Virtualization is the process of creating a virtual version of something, such as an operating system (OS), a server, a storage device, or network resources.   
 
@@ -253,7 +250,13 @@ VCSs help developers:
 - Smart navigation of vehicles
 - Traffic load balancing
  
+19.**GrapheneOS**- GrapheneOS is a custom, open-source operating system (OS) that focuses on privacy and security. It's based on Android and is compatible with Android apps.GrapheneOS is compatible with selected Google Pixel smartphones, including:   
+- Pixel 8 Pro,Pixel 8,Pixel Fold,etc
 
+20.**BOSS**- Bharat Operating System Solutions (BOSS) is an open-source operating system (OS) developed by the Centre for Development of Advanced Computing (C-DAC) in India. BOSS is an Indian Linux distribution based on Debian.  
+<img height="100" width="200" align="right" src="https://github.com/raunakkk21/Computing-and-Networking/assets/143111163/07aef32d-9e40-4bec-8f64-ff68ccad28bc">
+
+21.**Host**-A network host is a computer or other device that is connected to a computer network. Hosts can include clients and servers that send or receive data, services, and applications.  
 
 
 
