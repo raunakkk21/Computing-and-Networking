@@ -1,58 +1,67 @@
-#  COMPUTATION 💻  
+# CDN  
+- Content delivery networks (CDNs) work by establishing a point of presence (POP) or a group of CDN edge servers at multiple geographical locations. This geographically distributed network works on the principles of caching, dynamic acceleration, and edge logic computations.
+##  COMPUTATION 💻      
+### Processor Architectures
+1.**CISC**(Closed source)-CISC stands for Complex Instruction Set Computer. It comprises a complex instruction set. It incorporates a variable-length instruction format. Instructions that require register operands can take only two bytes.
+
+2.**RISC**(Closed source)-A Reduced Instruction Set Computer is a type of microprocessor architecture that utilizes a small, highly-optimized set of instructions rather than the highly-specialized set of instructions typically found in other architectures.
+
+3.**RISC-V**(Open source)-RISC-V is an open-source instruction set architecture used to develop custom processors for a variety of applications, from embedded designs to supercomputers.
+
+4.**ARM**-ARM stands for Advanced RISC Machine. It's a processor architecture based on a 32-bit reduced instruction set (RISC) computer. ARM is one of the most licensed and extensive processor cores in the world.
+
+
+### Types of processing units
 1.**CPU**- A CPU (Central Processing Unit) is the most important component of a computer.It performs all types of data processing operations, including:  
  <img src="https://github.com/raunakkk21/Computing-and-Networking/assets/143111163/21ceda3d-76b9-44b1-92d6-3fcbc1bae8cd" height="300" width="500" align="right">
   - Arithmetic
   - Logic
   - Controlling
   - Input/output (I/O) operations
-    
-
-    
-2.**ALU**- An arithmetic logic unit (ALU) is a digital circuit that performs arithmetic and logic operations. It's a fundamental building block of a computer's central processing unit (CPU).ALUs perform operations on:
-- Integer binary numbers
-- Instruction words
-- Bitwise operations
+     
+2.**GPU**-A Graphics Processing Unit (GPU) is a chip that renders graphics for display on an electronic device.GPUs are designed to accelerate computer graphics and image processing.They can perform mathematical calculations at high speed. Computing tasks like: 
+- Graphics rendering
+- Machine learning (ML) 
+- Video editing
   
 3.**DPU**- A data processing unit (DPU) is a programmable computer processor that integrates a CPU with network interface hardware. DPUs are also known as "IPUs" (infrastructure processing units) or "SmartNICs".DPUs are used in data centers to:
 - Move data around
 - Handle networking functions
 - Relieve the CPU from data processing jobs
+
+### Operating Systems
+- An operating system is a set of programs that enables a user to operate and interact with a computer.
+#### Types of OS
+- Batch OS
+- Time-sharing or multitasking OS
+- Distributed OS
+- Network OS
+- Real-time OS
+- Mobile OS
+
+
+### Types of Integrated circuits
   
- <img src="https://github.com/raunakkk21/Computing-and-Networking/assets/143111163/2cb21290-589c-48a0-b54e-d82ed5d37f46" height="200" width="400" align="right">    
- 
- 4.**GPU**-A Graphics Processing Unit (GPU) is a chip that renders graphics for display on an electronic device.GPUs are designed to accelerate computer graphics and image processing.They can perform mathematical calculations at high speed. Computing tasks like: 
-- Graphics rendering
-- Machine learning (ML) 
-- Video editing
-  
-5.**SOC**- A system on chip (SoC) is an integrated circuit (IC) that combines many or all of the high-level function elements of an electronic device onto a single chip. SoCs are much smaller than multi-chip designs found in PCs or notebooks and consume less power, but are typically much slower.  
+1.**SOC**- A system on chip (SoC) is an integrated circuit (IC) that combines many or all of the high-level function elements of an electronic device onto a single chip. SoCs are much smaller than multi-chip designs found in PCs or notebooks and consume less power, but are typically much slower.  
 SoCs usually contain:
 - CPU,GPU
 - USB controller
 - Power management circuits
-- 
-6.**FGPA**- FGPA stands for field-programmable gate array. It's a type of integrated circuit that can be programmed or reprogrammed after manufacturing.FPGAs are versatile and can be configured to perform a wide range of digital logic functions.
-7.**ASICS**
+
+2.**ASICS**
 -  ASIC stands for Application-Specific Integrated Circuit. ASICs are computer chips that combine several different circuits on one chip. They are custom-built for a specific purpose, such as running in a digital voice recorder or a high-efficiency video codec.
 -  ASICs are the opposite of CPUs and GPUs, which perform general operations. ASICs are more power efficient and have better performance than general purpose integrated circuits. ASICs are used in more specific applications, such as: Cryptocurrency mining, Network processing, Digital cameras.
+
+3.**FGPA**- FGPA stands for field-programmable gate array. It's a type of integrated circuit that can be programmed or reprogrammed after manufacturing.FPGAs are versatile and can be configured to perform a wide range of digital logic functions.
   
-8.**PRNG**-A pseudo-random number generator (PRNG) is an algorithm that uses mathematical formulas to produce sequences of numbers that approximate the properties of random numbers.The sequence generated by a PRNG is not truly random. However, an observer who does not know the value of the seed cannot distinguish the output from that of a (true) random bit generator.  
 
-9.**QRNG**-QRNG stands for Quantum Random Number Generator. It's a device that generates random numbers using the principles of quantum physics. 
- QRNGs have many applications, including: Key generation, Cryptography, Banking, The automotive industry, Security.  
- 
-10.**ARM**-ARM stands for Advanced RISC Machine. It's a processor architecture based on a 32-bit reduced instruction set (RISC) computer. ARM is one of the most licensed and extensive processor cores in the world.
-   <img src="https://github.com/raunakkk21/Computing-and-Networking/assets/143111163/90bda5b8-401d-4d89-93df-5ca827c59fdf" width="400" height="250" align="right">
 
-11.**RISC-V**-It is an open-source instruction set architecture (ISA) that allows anyone to develop custom processors without paying a licensing fee. RISC-V is based on established reduced instruction set computer (RISC) principles.   
 
-12.**Edge Traffic Management System**-Edge computing is a technology that can be used to manage traffic. It allows for the processing and analysis of data in real-time, locally. Edge computing can be used for:  
-- Smart navigation of vehicles
-- Traffic load balancing
+
+
   
-13.**Shakti Project**- The Shakti project is India's first indigenous microprocessor. It was designed by students at the Indian Institute of Technology (IIT) Chennai. The project was started in 2014 by IIT Madras Director V Kamakoti and other researchers.The Shakti microprocessor is based on an open-source architecture, making it free for everyone to use. It was fabricated on 22nm FinFET, running at 400MHz and benchmark of 1.67 DMIPs/MHz.  
 
-14.**SEP**-A standard-essential patent (SEP) is a patent that protects an invention that must be used to comply with a technical standard.    
+  
 
 15.**GraphineOS**- GrapheneOS is a custom, open-source operating system (OS) that focuses on privacy and security. It's based on Android and is compatible with Android apps.GrapheneOS is compatible with selected Google Pixel smartphones, including:   
 - Pixel 8 Pro,Pixel 8,Pixel Fold,etc
@@ -174,7 +183,7 @@ RAID is used for:
 
 15.**LDAP(Lightweight directory access protocol)**-LDAP authentication is the process of verifying a user's identity by checking their credentials against an LDAP directory server.  
 
-16.**CDN**-Content delivery networks (CDNs) work by establishing a point of presence (POP) or a group of CDN edge servers at multiple geographical locations. This geographically distributed network works on the principles of caching, dynamic acceleration, and edge logic computations.    
+   
 
 17.**API Gateway**-An application programming interface (API) gateway is software that takes an application user's request, routes it to one or more backend services, gathers the appropriate data and delivers it to the user in a single, combined package.  
 
@@ -229,6 +238,21 @@ VCSs help developers:
 13.**SES**-Amazon Simple Email Service (SES) is a cloud-based email service provider that can integrate into any application for high volume email automation. You can use Amazon SES to send transactional emails, marketing emails, or newsletter emails.    
 
 14.**Amazon MQ**-Amazon MQ is a managed message broker service for Apache ActiveMQ and RabbitMQ that streamlines setup, operation, and management of message brokers on AWS. With a few steps, Amazon MQ can provision your message broker with support for software version upgrades.
+
+15.**SEP**-A standard-essential patent (SEP) is a patent that protects an invention that must be used to comply with a technical standard. 
+
+16.**PRNG**-A pseudo-random number generator (PRNG) is an algorithm that uses mathematical formulas to produce sequences of numbers that approximate the properties of random numbers.The sequence generated by a PRNG is not truly random. However, an observer who does not know the value of the seed cannot distinguish the output from that of a (true) random bit generator.  
+
+
+17.**QRNG**-QRNG stands for Quantum Random Number Generator. It's a device that generates random numbers using the principles of quantum physics. 
+ QRNGs have many applications, including: Key generation, Cryptography, Banking, The automotive industry, Security.    
+ 
+
+
+18.**Edge Traffic Management System**-Edge computing is a technology that can be used to manage traffic. It allows for the processing and analysis of data in real-time, locally. Edge computing can be used for:  
+- Smart navigation of vehicles
+- Traffic load balancing
+ 
 
 
 
