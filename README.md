@@ -48,10 +48,13 @@ Bare metal- Server with no OS
 - Types of VM's
   - process VM's
   - system VM's
+
+1.**Hypervisors**-A hypervisor is a type of computer software, firmware, or hardware that creates and runs virtual machines. Hypervisors are also known as virtual machine monitors (VMMs) or virtualizers.
+*Type of Hypervisors*  
+
+<img width="747" alt="Screenshot 2023-11-03 172732" src="https://github.com/raunakkk21/Computing-and-Networking/assets/143111163/6f33a7ed-e4d0-4462-b63c-4a07de3af000">  
+
   
-
-
-
 
 ### Types of Integrated circuits
   
@@ -70,7 +73,7 @@ SoCs usually contain:
 
 18.**Virtualization**-Virtualization is the process of creating a virtual version of something, such as an operating system (OS), a server, a storage device, or network resources.   
 
-19.**Hypervisors**-A hypervisor is a type of computer software, firmware, or hardware that creates and runs virtual machines. Hypervisors are also known as virtual machine monitors (VMMs) or virtualizers.   
+ 
 
 *Type of Hypervisors*  
 
