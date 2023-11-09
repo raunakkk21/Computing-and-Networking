@@ -43,16 +43,48 @@
 ### Host
 Bare metal- Server with no OS
 
-### Vitual Machine(VM)
+### Virtual Machine(VM)
 - A VM is a virtualized instance of a computer that can perform almost all of the same functions as a computer, including running applications and operating systems.
 - Types of VM's
   - process VM's
   - system VM's
 
-1.**Hypervisors**-A hypervisor is a type of computer software, firmware, or hardware that creates and runs virtual machines. Hypervisors are also known as virtual machine monitors (VMMs) or virtualizers.
-*Type of Hypervisors*  
+- **Hypervisors**-A hypervisor is a type of computer software, firmware, or hardware that creates and runs virtual machines. Hypervisors are also known as virtual machine monitors (VMMs) or virtualizers.
+- *Type of Hypervisors*  
 
 <img width="747" alt="Screenshot 2023-11-03 172732" src="https://github.com/raunakkk21/Computing-and-Networking/assets/143111163/6f33a7ed-e4d0-4462-b63c-4a07de3af000">  
+
+#### Containers
+-A container is a software package that contains all the elements needed to run an application. 
+
+- *Types of containers*
+
+1.*Docker*-Docker is one of the most popular and widely used container platforms. It enables the creation and use of Linux containers.
+
+2.*LXC*- LXC is an open-source project of LinuxContainers.org. The aim of LXC is to provide isolated application environments that closely resemble virtual machines (VMs) but without the overhead of running their own kernel.
+
+3.*CRI-O*- It is an open-source tool which is an implementation of the Kubernetes CRI (Container Runtime Interface) to enable using OCI (Open Container Initiative) compatible runtimes. Its goal is to replace Docker as the Container engine for Kubernetes. 
+
+4.*rkt*-The rkt has a set of supported tools and community to rival Docker. rkt containers also known as Rocket, turn up from CoreOS to address security vulnerabilities in early versions of Docker.Like LXC, rkt doesn’t use a central daemon and thereby provides more fine-grained control over your containers
+
+5.*Podman*-Podman is an open-source container engine, which performs much of the same role as the Docker engine. But the difference between them is the way in which they work. Like rkt and LXC, Podman also does not have a central daemon but Docker follows the client/server model which is, using a daemon to manage all containers.
+
+6.*runC*-runC is a lightweight universal OS container runtime. It was originally a low-level Docker component, which worked under the hood embedded within the platform architecture.
+
+7.*containerd*-containerd is basically a daemon, supported by both Linux and Windows, that acts as an interface between your container engine and container runtimes.
+
+#### Orchestration containers
+- Container orchestration is a process that automates the management of containerized workloads and services.
+- Examples:
+   - *Kubernetes*-Kubernetes orchestration is an open-source container orchestration system that automates the deployment, management, and scaling of applications. It can be used with or without Docker.
+   - *Dockerswarm*- Docker Swarm is a container orchestration tool that allows you to manage a cluster of Docker hosts or run docker applications. It is a lightweight and easy-to-use tool that is well-suited for small and medium-sized deployments.
+   - *Apache Mesos*- Mesos brings together the existing resources of the machines/nodes in a cluster into a single pool from which a variety of workloads may utillize. Also known as node abstraction, this removes the need to allocate specific machines for different workloads.
+   - 
+
+
+ 
+
+
 
   
 
@@ -71,15 +103,8 @@ SoCs usually contain:
 3.**FGPA**- FGPA stands for field-programmable gate array. It's a type of integrated circuit that can be programmed or reprogrammed after manufacturing.FPGAs are versatile and can be configured to perform a wide range of digital logic functions.
   
 
-18.**Virtualization**-Virtualization is the process of creating a virtual version of something, such as an operating system (OS), a server, a storage device, or network resources.   
 
- 
 
-*Type of Hypervisors*  
-
-<img width="747" alt="Screenshot 2023-11-03 172732" src="https://github.com/raunakkk21/Computing-and-Networking/assets/143111163/6f33a7ed-e4d0-4462-b63c-4a07de3af000">  
-
-20.**Containers**-A container is a software solution that wraps a software process or microservice to make it executable in all computing environments.  
 
 21.**SR-IOV**-The single root I/O virtualization (SR-IOV) interface is an extension to the PCI Express(Peripeheral component interconnect express) specification. SR-IOV allows a device, such as a network adapter, to separate access to its resources among various PCIe hardware functions.CIe is available in different physical configurations, including x1, x4, x8, x16, and x32.  
 
