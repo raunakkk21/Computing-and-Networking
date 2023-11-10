@@ -1,6 +1,4 @@
-# CDN  
-- Content delivery networks (CDNs) work by establishing a point of presence (POP) or a group of CDN edge servers at multiple geographical locations. This geographically distributed network works on the principles of caching, dynamic acceleration, and edge logic computations.
-##  COMPUTATION 💻  
+#  COMPUTATION 💻  
    
 ### Processor Architectures
 1.**CISC**(Closed source)-CISC stands for Complex Instruction Set Computer. It comprises a complex instruction set. It incorporates a variable-length instruction format. Instructions that require register operands can take only two bytes.
@@ -39,6 +37,8 @@
 - NetworkOS(NOS)-It is software that connects multiple devices and computers on the network and allows them to share resources on the network.
 - Real-time OS(Airline reservation systems, Heart pacemakers,anything that needs immediate reponse)
 - Mobile OS(Android,GrapheneOS,Window phone,etc)
+##### Dual boot
+Dual booting is a way to install and run two or more different operating systems (OS) on a single computer.
 
 ### Host
 Bare metal- Server with no OS
@@ -48,14 +48,17 @@ Bare metal- Server with no OS
 - Types of VM's
   - process VM's
   - system VM's
+- *eBPF*-Extended Berkeley Packet Filter. It is a lightweight virtual machine that runs sandboxed programs in a Linux kernel. eBPF is a Linux kernel technology that allows engineers to build programs that run securely in kernel space.
 
 - **Hypervisors**-A hypervisor is a type of computer software, firmware, or hardware that creates and runs virtual machines. Hypervisors are also known as virtual machine monitors (VMMs) or virtualizers.
 - *Type of Hypervisors*  
 
 <img width="747" alt="Screenshot 2023-11-03 172732" src="https://github.com/raunakkk21/Computing-and-Networking/assets/143111163/6f33a7ed-e4d0-4462-b63c-4a07de3af000">  
 
-#### Containers
--A container is a software package that contains all the elements needed to run an application. 
+- *SR-IOV*-Single Root I/O Virtualization  is a hardware standard that allows a PCI Express (PCIe) device to present itself as multiple virtual devices to a hypervisor. The physical device is called a Physical Function (PF) and the virtual devices are called Virtual Functions (VF)
+
+### Containers
+- A container is a software package that contains all the elements needed to run an application. 
 
 - *Types of containers*
 
@@ -77,16 +80,22 @@ Bare metal- Server with no OS
 - Container orchestration is a process that automates the management of containerized workloads and services.
 - Examples:
    - *Kubernetes*-Kubernetes orchestration is an open-source container orchestration system that automates the deployment, management, and scaling of applications. It can be used with or without Docker.
+       - *Rancher*-Rancher is a Kubernetes management tool that can be used to deploy and run clusters anywhere and on any provider.
+       - *Amazon EKS*-Amazon Elastic Kubernetes Service (Amazon EKS) is a managed Kubernetes service that makes it easy for you to run Kubernetes on AWS and on-premises.
    - *Dockerswarm*- Docker Swarm is a container orchestration tool that allows you to manage a cluster of Docker hosts or run docker applications. It is a lightweight and easy-to-use tool that is well-suited for small and medium-sized deployments.
    - *Apache Mesos*- Mesos brings together the existing resources of the machines/nodes in a cluster into a single pool from which a variety of workloads may utillize. Also known as node abstraction, this removes the need to allocate specific machines for different workloads.
-   - 
+   - *Amazon ECS*-Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service that helps you easily deploy, manage, and scale containerized applications.
+     
 
+## User space and Kernal space
+<img width="700" alt="Screenshot 2023-11-10 145334" src="https://github.com/raunakkk21/Computing-and-Networking/assets/143111163/7ae4aa3c-fa23-4f47-8b8b-fc525ec9975d">
 
- 
+### IAAS, PAAS,SAAS
 
+<img width="700" alt="Screenshot 2023-11-10 150501" src="https://github.com/raunakkk21/Computing-and-Networking/assets/143111163/d1d8c33e-bc93-4b93-9a82-27f8bda1a574">
 
+- *KaaS*-Kubernetes as a Service (KaaS) makes it possible to operate Kubernetes, the world's most popular container orchestrator, as a managed service. KaaS services are commonly provided in the public cloud, but some KaaS platforms can also be deployed on-premises.
 
-  
 
 ### Types of Integrated circuits
   
@@ -102,21 +111,6 @@ SoCs usually contain:
 
 3.**FGPA**- FGPA stands for field-programmable gate array. It's a type of integrated circuit that can be programmed or reprogrammed after manufacturing.FPGAs are versatile and can be configured to perform a wide range of digital logic functions.
   
-
-
-
-
-21.**SR-IOV**-The single root I/O virtualization (SR-IOV) interface is an extension to the PCI Express(Peripeheral component interconnect express) specification. SR-IOV allows a device, such as a network adapter, to separate access to its resources among various PCIe hardware functions.CIe is available in different physical configurations, including x1, x4, x8, x16, and x32.  
-
-21.**Vertical and Horizontal scaling**    
-<img src="https://github.com/raunakkk21/Computing-and-Networking/assets/143111163/c89c4d76-28e1-4a44-b415-aad8e71068be" height="350" width="600">  
-
-
-
-
-
-
-
 
 
 
@@ -159,6 +153,8 @@ RAID is used for:
 
 
 # NETWORK
+# CDN  
+- Content delivery networks (CDNs) work by establishing a point of presence (POP) or a group of CDN edge servers at multiple geographical locations. This geographically distributed network works on the principles of caching, dynamic acceleration, and edge logic computations.
 1.**SR-IOV**- Single Root I/O Virtualization (SR-IOV) is a technology that allows a physical PCIe device to present itself multiple times through the PCIe bus. SR-IOV is an extension to the PCI Express (PCIe) specification. It allows a device, such as a network adapter, to separate access to its resources among various PCIe hardware functions.   
 
 2.**NTP**- Network Time Protocol (NTP) is an internet protocol that synchronizes computer clock time sources in a network. NTP is one of the oldest parts of the TCP/IP suite. It runs on User Datagram Protocol (UDP), which in turn runs on IP.  
